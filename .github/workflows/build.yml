@@ -13,6 +13,7 @@ jobs:
 
   debugging:
     name: "DEBUGGING"
+    runs-on: ubuntu-latest
     steps:
       - name: Dump github context
         run:   echo "$GITHUB_CONTEXT"
